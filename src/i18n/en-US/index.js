@@ -17,5 +17,8 @@ export default {
   visitWithMobile: 'Please visit with Mobile',
   desktopWarningPage:'You are visit with desktop',
   tryAgain:'Try Again',
-  emailHint:'example@mail.com'
+  emailHint:'example@mail.com',
+  ERROR404:'ERROR 404',
+  PageNotFound:'Page not found',
+  GotoLogin:'Go to the login page'
 }

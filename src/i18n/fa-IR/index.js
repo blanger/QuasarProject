@@ -17,5 +17,8 @@ export default {
   visitWithMobile: 'لطفا با موبایل وارد شوید',
   desktopWarningPage:'شما با دسکتاپ وارد شدید',
   tryAgain:'تلاش دوباره',
-  emailHint:'مثال@mail.com'
+  emailHint:'مثال@mail.com',
+  ERROR404:'خطای 404',
+  PageNotFound:'صفحه پیدا نشد',
+  GotoLogin:'رفتن به صفحه ورود'
 }

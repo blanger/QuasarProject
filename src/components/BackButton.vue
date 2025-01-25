@@ -1,5 +1,5 @@
 <template>
-  <router-link to="/" class="back-to-Login-btn">
+  <router-link to="/login" class="back-to-Login-btn">
 
     <q-btn
     :label="$t('backButton')"

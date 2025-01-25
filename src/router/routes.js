@@ -1,6 +1,6 @@
 const routes = [
   {
-    path: '/',
+    path: '/login',
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('src/pages/LoginPage.vue') },
@@ -9,11 +9,11 @@ const routes = [
         path: '/ForgotPassword',
         component: () => import('src/pages/ForgotPassword.vue'),
       },
-      {
-        name: 'Warning-Desktop',
-        path: '/warning',
-        component: () => import('src/pages/DesktopWarning.vue'),
-      },
+      // {
+      //   name: 'Warning-Desktop',
+      //   path: '/warning',
+      //   component: () => import('src/pages/DesktopWarning.vue'),
+      // },
     ],
   },
 
