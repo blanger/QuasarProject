@@ -5,7 +5,7 @@
         <q-img src="../assets/404notfound.jpg" style="height: 100%; width: 40vh;" />
       </div>
 
-      <div class="text-h2">
+      <div class="text-h3">
         {{ $t('PageNotFound') }}
       </div>
 
