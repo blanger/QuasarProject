@@ -1,0 +1,53 @@
+/* app global css */
+q-page {
+  min-height: unset;
+}
+body {
+  overflow: hidden;
+  height: 100%;
+}
+
+.q-field__label {
+  left: unset !important;
+  right: unset !important;
+}
+
+.ltr-style .q-field__label {
+  transform-origin: left top !important;
+}
+
+.rtl-style .q-field__label {
+  transform-origin: right top !important;
+}
+
+/* .custom-bg-color {
+  background-color: #450db5;
+} */
+.white-box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+  height: 93vh;
+  margin: 24px;
+}
+.p {
+  size: 10px;
+}
+.lang {
+  position: relative;
+  box-shadow: 1px;
+  margin-top: 45px;
+}
+.q-field__after, .q-field__append {
+  padding-left: unset;
+}
+.q-field--error .q-field__bottom {
+  display: inline-table;
+}
+.q-field__messages {
+  display: inline-flex;
+  /* line-height: 1; */
+}
