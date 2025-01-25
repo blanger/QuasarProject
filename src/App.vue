@@ -11,8 +11,8 @@ export default defineComponent({
 </script>
 <style>
 @font-face {
-  font-family: 'IRANSansX-Black'; /* نام فونت */
-  src: url("src/assets/fonts/IRANSansX-Medium.woff") format('woff2'); /* مسیری که به فایل فونت شما اشاره دارد */
+  font-family: 'IRANSansX-Black';
+  src: url("src/assets/fonts/IRANSansX-Medium.woff") format('woff2');
   font-weight: normal;
   font-style: normal;
 }
