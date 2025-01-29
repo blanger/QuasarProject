@@ -52,9 +52,9 @@ export default {
   border: 2px rgb(82, 82, 218);
   display:inline;
   justify-content: center;
-  position: absolute;
-  bottom: 397px;
-  left: 267px;
+  position:relative;
+  bottom: 200px;
+  left: 159px;
   opacity: 0.8;
 
 }

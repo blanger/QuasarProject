@@ -3,12 +3,12 @@
     <q-page class="language-page" :class="{ rtl: isRtl }">
       <div class="white-box" style="justify-content: center" role="rtl">
         <div>
-          <q-img src="../assets/AppleLogo.png" style="height: 100%; width: 50px; margin-top: 30px;" />
+          <q-img src="../assets/AppleLogo.png" style="height: 100%; width: 50px; margin-top: 45px;" />
 
         </div>
 
         <h3 style="margin-top: 15px; font-size: 26px">{{ $t('loginTitle') }}</h3>
-        <check-device />
+        <LoginComponent />
         <br />
       </div>
     </q-page>
@@ -16,10 +16,9 @@
 </template>
 
 <script>
-import CheckDevice from 'src/components/CheckDevice.vue'
-
+import LoginComponent from 'src/components/LoginComponent.vue';
 export default {
-  components: { CheckDevice },
+  components: { LoginComponent },
 
   setup() {
   },
